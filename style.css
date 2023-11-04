@@ -11,6 +11,7 @@ body {
     flex-direction: column;
 }
 
+
 #buttons {
     display: flex;
     justify-content: space-evenly;
@@ -136,4 +137,17 @@ ul {
 li {
     line-height: 2rem;
     font-size: 1.5rem;
+}
+
+
+@media screen and (max-width:600px) {
+    #Btn1 {
+        width: 80vw;
+    }
+    #Btn2 {
+        width: 80vw;
+    }
+    #Btn3 {
+        width: 80vw;
+    }
 }
